@@ -1,0 +1,254 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登錄"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首頁"
+			}
+		}, {
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "預約"
+			}
+		}, {
+			"path": "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "收件匣"
+			}
+		}, {
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}, {
+            "path" : "pages/login/policy",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "隱私政策",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/login/protocol",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "用戶協議",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/login/forget_pwd",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "忘記密碼",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/login/success",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "修改成功",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/order/brand",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "預約療程",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mine/updateLogin",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改密碼",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mine/kefu",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "聯繫客服",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mine/about",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "關於我們",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mine/about_det",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "關於我們",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mine/info/info",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的資料",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mine/info/user",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "設置暱稱",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/order/record/record",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "療程記錄",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/order/record/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "療程記錄",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/order/order_list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "預約療程",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/order/address",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的療程",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/order/time",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的療程",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/order/already/already",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "已經預約",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/order/already/update_order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的療程",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/order/already/detail_order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的療程",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/order/already/order_info",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的療程",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "美容院",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#333333",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"spacing": "5px",
+		"fontSize": "12px",
+		"iconWidth": "19px",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "主頁",
+				"iconPath": "static/bar_icon/zhuye.png",
+				"selectedIconPath": "static/bar_icon/sel_zhuye.png"
+			},
+			{
+				"pagePath": "pages/order/order",
+				"text": "預約",
+				"iconPath": "static/bar_icon/yuyue@2x.png",
+				"selectedIconPath": "static/bar_icon/sel_yuyue.png"
+			},
+			{
+				"pagePath": "pages/news/news",
+				"text": "收件匣",
+				"iconPath": "static/bar_icon/xiaoxi.png",
+				"selectedIconPath": "static/bar_icon/sel_xiaoxi@2x.png"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "我的",
+				"iconPath": "static/bar_icon/my.png",
+				"selectedIconPath": "static/bar_icon/sel_my.png"
+			}
+		]
+	}
+}
